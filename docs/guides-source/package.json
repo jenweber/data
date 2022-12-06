@@ -1,6 +1,6 @@
 {
   "name": "ember-guides",
-  "version": "3.7.0",
+  "version": "4.10.0-alpha.2",
   "private": true,
   "description": "Markdown files and Guidemaker for Ember-Guides",
   "homepage": "https://github.com/ember-learn/guides-source#readme",
@@ -36,6 +36,11 @@
     "release:guides:links": "node scripts/update-version-links",
     "release:search": "scripts/update-search-index"
   },
+  "dependenciesMeta": {
+    "ember-data": {
+      "injected": true
+    }
+  },
   "devDependencies": {
     "@ember/optional-features": "^2.0.0",
     "@ember/test-helpers": "^2.2.5",
@@ -60,7 +65,7 @@
     "ember-cli-netlify": "^0.4.1",
     "ember-cli-sri": "^2.1.1",
     "ember-cli-uglify": "^3.0.0",
-    "ember-data": "~3.16.0",
+    "ember-data": "workspace:4.10.0-alpha.2",
     "ember-dictionary": "^0.2.6",
     "ember-export-application-global": "^2.0.1",
     "ember-fetch": "^8.0.4",
@@ -103,14 +108,14 @@
     "unified": "^9.2.1",
     "walk-sync": "^2.0.2"
   },
-  "engines": {
-    "node": "10.* || >= 12"
-  },
   "ember": {
     "edition": "octane"
   },
+  "engines": {
+    "node": "^14.8.0 || 16.* || >= 18.*"
+  },
   "volta": {
-    "node": "12.19.1",
-    "npm": "7.20.6"
-  }
+    "extends": "../../package.json"
+  },
+  "packageManager": "pnpm@7.15.0"
 }
