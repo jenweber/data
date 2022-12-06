@@ -1,0 +1,45 @@
+- title: "Guides and Tutorials"
+  url: "index"
+  skip_toc: true
+  pages:
+    - title: "Ember.js Guides"
+      url: ""
+
+- title: "Getting Started"
+  url: "getting-started"
+  pages:
+    - title: "Your first Ember Data records"
+      url: "index"
+
+- title: "Overview"
+  url: "overview"
+  pages:
+    - title: "Your first Ember Data records"
+      url: "index"
+
+- title: "Topics"
+  url: topics
+  pages:
+    - title: "Defining Models"
+      url: "index"
+    - title: "Finding Records"
+      url: "finding-records"
+    - title: "Creating, Updating and Deleting"
+      url: "creating-updating-and-deleting-records"
+    - title: "Relationships"
+      url: "relationships"
+    - title: "Pushing Records into the Store"
+      url: "pushing-records-into-the-store"
+    - title: "Handling Metadata"
+      url: "handling-metadata"
+    - title: "Customizing Adapters"
+      url: "customizing-adapters"
+    - title: "Customizing Serializers"
+      url: "customizing-serializers"
+    
+- title: "Advanced"
+  url: "advanced"
+  pages:
+    - title: "Some placeholder"
+      url: "index"
+
